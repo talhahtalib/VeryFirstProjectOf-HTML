@@ -8,45 +8,58 @@
 </head>
 <body>
     <fieldset>
-        <legend>Form:</legend>
+        <legend>Career Form:</legend>
     
         <h1>Fill Your Details</h1>
     <hr>
     <br>
-    <label for="firstName">First Name</label>
+    <label for="firstName"><b>First Name:</b></label>
     <br>
-    <!--&nbsp; &nbsp; &nbsp; &nbsp;--> <input type="firstName" id="firstName">
-    <br>
-    <br>
-    Middle Name: <br> <input type="MiddleName" id="MiddleName">
+    <!--&nbsp; &nbsp; &nbsp; &nbsp;--> <input type="firstName" placeholder="Talhah" id="firstName">
     <br>
     <br>
-    Last Name: <br> <input type="LastName" id="LastName">
+    <B>Middle Name:</B> <br> <input type="MiddleName" placeholder="Bin" id="MiddleName">
     <br>
     <br>
-    Father Name: <br> <input type="fathername" id="fathername">
+   <b>Last Name:</b> <br> <input type="LastName" placeholder="Talib" id="LastName">
     <br>
     <br>
-    Email: <br> <!--&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;--> <input type="Email" id="Email">
+   <b>Father's Name:</b> <br> <input type="father's name" placeholder="Talib Ullah" id="father's name">
     <br>
     <br>
-    Last Education: <br>  <input type="LastEducation" id="LastEducation">
+   <b>Email:</b> <br> <!--&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;--> <input type="Email" placeholder="Example@gmail.com" id="Email">
     <br>
     <br>
-    City: <br> <input type="" id="">
+   <b>Last Education:</b> <br>  <input type="LastEducation" placeholder="Master" id="LastEducation">
     <br>
     <br>
-    Address: <br> <input type="" id="">
+   <b>Address:</b> <br> <input type="" placeholder="street 123" id="">
     <br>
     <br>
-    Postal Code: <br> <input type="" id="">
+   <b>Postal Code:</b> <br> <input type="" placeholder="12345" id="">
     <br>
-    <br>       
+    <br>   
+<br>
+    <label for="City"><b>Choose your city:</b></label>
+    <select name="Cities" id="Cities">
+      <option value="Karachi">Karachi</option>
+      <option value="Islamabad">Islamabad</option>
+      <option value="Faislabad">Faislabad</option>
+      <option value="Lahore">Lahore</option>
+      <option value="Multan">Multan</option>
+    </select>
+    <br>
+    <br>
+    <label for="Gender"><b>Gender:</b></label> &nbsp;
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <br>
+<br>
 
     <input type="file" id="myFile" name="Resume">
     <br>
     <br>
-
+    <textarea name="message here" id="message here" cols="20" rows="5">Write your message here</textarea>
     <br>
     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <input type="button" value="Submit">
     </fieldset>
